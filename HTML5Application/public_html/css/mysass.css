@@ -1,0 +1,341 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  height: 70px;
+  background-color: red;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row; }
+
+#user a {
+  font-size: 16px;
+  color: #ff0;
+  text-decoration: none;
+  margin-left: 10px; }
+
+#add_ob {
+  margin-left: 30px;
+  align-self: center; }
+
+.regestration_centr_cub {
+  display: flex; }
+  .regestration_centr_cub .cubik {
+    width: 380px;
+    height: 400px;
+    max-width: 390px;
+    max-height: 400px;
+    align-self: center;
+    background-color: #eb9316;
+    margin-left: 35%;
+    margin-top: 5%; }
+  .regestration_centr_cub .regestration_centr_cub_socset {
+    width: 379px;
+    height: 30px;
+    background-color: mediumblue;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px; }
+    .regestration_centr_cub .regestration_centr_cub_socset a {
+      color: white;
+      text-decoration: none; }
+  .regestration_centr_cub #regBut {
+    margin-top: 30px;
+    margin-left: 25%;
+    width: 200px;
+    text-align: center; }
+
+#user {
+  margin-left: 700px;
+  left: 100px;
+  font-size: 22px;
+  text-align: center; }
+
+#hearts {
+  color: blue; }
+
+.item {
+  width: 70px;
+  height: 70px;
+  background-color: blue;
+  border-radius: 70px;
+  margin-left: 10%;
+  position: absolute; }
+
+.name-firm {
+  position: relative;
+  font-size: 15px;
+  color: white;
+  position: relative;
+  line-height: 2;
+  top: 15px;
+  left: 10px; }
+
+.favorites {
+  font-size: 24px;
+  display: block;
+  align-self: flex-start;
+  margin-left: 25%;
+  color: white;
+  cursor: pointer; }
+
+.favorites2 {
+  font-size: 24px;
+  display: block;
+  align-self: flex-start;
+  margin-left: 25%;
+  color: pink; }
+
+.glyphicon.glyphicon-heart.heart {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  margin-left: 140px;
+  margin-top: -30px;
+  display: block;
+  cursor: pointer; }
+
+footer {
+  background-color: #4cae4c; }
+
+.footer {
+  margin-top: 50px;
+  margin-left: 1px;
+  font-size: 16px; }
+  .footer a:hover {
+    color: yellow;
+    text-decoration: none; }
+
+.icon_socset {
+  width: 100px;
+  height: 30px;
+  margin-left: 20px; }
+
+.glyphicon.glyphicon-user.usr {
+  font-size: 24px;
+  display: block-inline;
+  left: 10%;
+  align-self: flex-start; }
+
+li {
+  text-align: center;
+  line-height: 2; }
+
+.dropdown {
+  align-self: flex-start;
+  margin-left: 10%;
+  padding-right: 1%;
+  position: absolute; }
+
+.dropdown.icon {
+  display: inline-block;
+  margin-top: 10px; }
+
+ul li a:hover {
+  color: blueviolet; }
+
+#dropdownMenu1 {
+  align-self: flex-start;
+  width: 100%; }
+
+.text {
+  font-size: 80%;
+  align-self: flex-start;
+  text-align: center; }
+
+.language {
+  margin-left: 1%;
+  align-self: flex-start; }
+  .language a {
+    color: white; }
+
+button {
+  height: 40px;
+  background-color: blanchedalmond;
+  align-self: flex-start;
+  margin-right: 40px;
+  margin-left: 1%;
+  width: 190px;
+  position: relative; }
+
+.addcont {
+  align-self: flex-start;
+  position: relative; }
+
+.enter {
+  align-self: flex-start;
+  margin-left: 30px; }
+
+.entr {
+  width: 80px;
+  height: 30px;
+  background-color: violet; }
+
+.new {
+  width: 300px;
+  height: 40px; }
+
+.inp {
+  align-self: flex-end; }
+
+.dropdown.dropdown-menu.row_size {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap; }
+
+#Dropdown4 {
+  margin-left: 30px; }
+
+#Dropdown11 {
+  margin-left: 50px; }
+
+.round {
+  width: 70px;
+  height: 70px;
+  border-radius: 70px;
+  cursor: pointer; }
+
+ul li {
+  align-self: center;
+  display: inline-block;
+  margin-left: 0px;
+  line-height: 1;
+  width: 225px;
+  text-align: justify; }
+
+ul.dropdown-menu.mod li {
+  font-size: 14px;
+  align-self: flex-start;
+  display: inline;
+  width: 700px; }
+
+ul li {
+  display: inline-block; }
+
+a {
+  color: blue; }
+
+ul.dropdown-menu.row_size {
+  min-width: 860px;
+  margin-left: -351px; }
+
+.navbar-form.bg {
+  background-color: violet;
+  height: 70px;
+  border: 2px solid violet; }
+
+.body-content {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: 500px;
+  background-color: aqua; }
+
+.left-content {
+  position: relative;
+  width: 100px;
+  max-width: 100px;
+  height: 150%; }
+
+.reight-content {
+  position: relative;
+  width: 100px;
+  max-width: 100px;
+  margin-left: 1090px;
+  margin-top: -500px; }
+
+.center-content {
+  width: 858px;
+  height: 400px;
+  margin-left: 147px; }
+
+.vip {
+  margin-top: 170px; }
+
+.cub img {
+  width: 200px;
+  height: 200px; }
+
+.cub {
+  margin-top: 5px;
+  display: inline-block;
+  width: 200px;
+  height: 250px; }
+
+.text_under_cub {
+  margin-left: 3px;
+  width: 200px;
+  max-width: 200px;
+  display: inline-block;
+  color: blue; }
+
+img {
+  width: 240px;
+  height: 900px; }
+
+@media screen and (min-width: 760) {
+  .language {
+    margin-left: 309px;
+    margin-top: -55px; } }
+@media screen and (max-width: 321) {
+  .language {
+    margin-left: 100px; } }
+@media screen and (max-width: 681px) {
+  .item {
+    align-self: flex-start;
+    margin-left: 1px;
+    width: 40px;
+    height: 40px;
+    background-color: blue; }
+
+  .name-firm {
+    font-size: 7px;
+    align-self: center; }
+
+  .glyphicon.glyphicon-heart.favorites {
+    margin-left: 46px;
+    font-size: 10px; }
+
+  .glyphicon.glyphicon-user.usr {
+    left: -15px;
+    font-size: 10px; }
+
+  button {
+    height: 10px;
+    width: 90px; }
+
+  .text {
+    font-size: 8px;
+    white-space: pre-wrap;
+    margin-top: -8px;
+    margin-left: -12px; }
+
+  ul li {
+    font-size: 9px;
+    line-height: 1; }
+
+  ul.dropdown-menu {
+    min-width: 70px; }
+
+  a.text {
+    font-size: 8px; }
+
+  .language {
+    margin-left: 309px;
+    margin-top: -55px; }
+
+  .dropdown {
+    width: 100px;
+    height: 5px;
+    align-self: flex-start;
+    margin-left: -10px; } }
+@media screen and (max-width: 681px) and (max-width: 768px) {
+  .navbar-form .form-control .new {
+    display: inline-block;
+    width: 300px;
+    vertical-align: middle; } }
