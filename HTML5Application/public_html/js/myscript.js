@@ -17,6 +17,7 @@ class Favorite
         this.buttonReg=document.getElementById('regBut');
         this.addobj=document.getElementById('add_obj');
         this.addobjL=document.getElementById('add_objL');
+        this.mail = document.getElementById('mail');
         this.Click();
        this.ChangeColor();
        
@@ -29,7 +30,7 @@ class Favorite
    {
        
        this.enter.addEventListener('click',(e)=>{console.log(this.enter);
-           document.getElementById('regBut').innerText='Войти';
+           this.buttonReg.innerText='Войти';
            
        });
                
@@ -38,21 +39,21 @@ class Favorite
            
        
        this.reg.addEventListener('click',(e)=>{console.log(this.reg);
-           document.getElementById('regBut').innerText='Регистрация';});
+           this.buttonReg.innerText='Регистрация';});
        
        this.buttonReg.addEventListener('click',(e)=>{
            console.log(this.butReg);
            if(this.buttonReg.innerText==="Войти")
            {
                
-               let key=window.localStorage.getItem(document.getElementById('mail').value);
+               let key=window.localStorage.getItem(this.mail.value);
                
                if(key!==null)
                {
                    if(key===document.getElementById('passw').value)
                    {
                              console.log("Вход выполнен успешно") ;
-                             document.getElementById('user_name').innerText=document.getElementById('mail').value;
+                             document.getElementById('user_name').innerText=this.mail.value;
                              
                    }
                    else
@@ -69,7 +70,7 @@ class Favorite
            {
                for(let i=0;i<window.localStorage.length;i++)
                {
-                   if(document.getElementById('mail').value===window.localStorage.key([i]))
+                   if(this.mail.value===window.localStorage.key([i]))
                    {
                        alert(' Логин занят');
                        break;
@@ -82,9 +83,9 @@ class Favorite
                        if(document.getElementById('passw').value.length>=6)
                        {
                     window.localStorage.setItem(document.getElementById('mail').value,document.getElementById('passw').value); 
-                    document.getElementById('user_name').innerText=document.getElementById('mail').value;
+                    document.getElementById('user_name').innerText=this.mail.value;
                     document.getElementById('passw').placeholder=document.getElementById('passw').value;
-                    document.getElementById('user_name').innerText=document.getElementById('mail').value;
+                    document.getElementById('user_name').innerText=this.mail.value;
                        }
                        else
                        {
